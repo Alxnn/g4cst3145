@@ -1,0 +1,83 @@
+[
+    {
+        "id":1001,
+        "title":"Programming Class",
+        "location":"Location: London",
+        "price":20,
+        "image":"../assets/images/coding.png",
+        "availableInventory": 7
+
+    },
+    {
+        "id":1002,
+        "title":"Maths Class",
+        "location":"Location: Hendon",
+        "price":15,
+        "image":"../assets/images/maths.png",
+        "availableInventory": 8
+    },
+    {
+        "id":1003,
+        "title":"Science Class",
+        "location":"Location: Walthamsotw",
+        "price":17,
+        "image":"../assets/images/science.png",
+        "availableInventory": 9
+    },
+    {
+        "id":1004,
+        "title":"Social Studies Class",
+        "location":"Location: Enfield",
+        "price":10,
+        "image":"../assets/images/studies.png",
+        "availableInventory": 12
+    },
+    {
+        "id":1005,
+        "title":"Swimming Class",
+        "location":"Location: Wood Green",
+        "price":12,
+        "image":"../assets/images/swimming.png",
+        "availableInventory": 9
+    },
+    {
+        "id":1006,
+        "title":"Dance Class",
+        "location":"Location: Ilford",
+        "price":10,
+        "image":"../assets/images/dance.png",
+        "availableInventory": 17
+    },
+    {
+        "id":1007,
+        "title":"Music Class",
+        "location":"Location: Leyton",
+        "price":15,
+        "image":"../assets/images/music.png",
+        "availableInventory": 5
+    },
+    {
+        "id":1008,
+        "title":"Badminton Class",
+        "location":"Location: Acton",
+        "price":5,
+        "image":"../assets/images/badminton.png",
+        "availableInventory": 13
+    },
+    {
+        "id":1009,
+        "title":"Gym Class",
+        "location":"Location: Southgate",
+        "price":19,
+        "image":"../assets/images/gym.png",
+        "availableInventory": 6
+    },
+    {
+        "id":1010,
+        "title":"Business Class",
+        "location":"Location: Manchester",
+        "price":25,
+        "image":"../assets/images/business.png",
+        "availableInventory": 12
+    }
+]

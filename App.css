@@ -1,0 +1,181 @@
+body {
+  background-color: rgba(183, 163, 199, 0.534);
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.left_column {
+  width: 25vw;
+  max-width: 400px;
+}
+.right_column {
+  width: 75vw;
+}
+.class-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.class-item {
+  position: relative;
+  width: 25vw;
+  max-width: 300px;
+  border: black 1px solid;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.class-image {
+  max-width: 100px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 4px 7px rgba(0,0,0,0.2);
+  opacity: 0.2;
+}
+.class-info {
+  padding-bottom: 5px;
+}
+.checkout-button {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #7BCCB5;
+  border: none;
+  cursor: pointer;
+}
+.checkout-button:hover {
+  border: solid black 1px;
+  padding: 4px;
+}
+.checkout-button:active {
+  background-color: #519481;
+}
+.checkout-button:disabled {
+  cursor: inherit;
+}
+.checkout-button:disabled:hover {
+  border: none;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sort-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.sort-menu-item {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  text-align: center;
+}
+
+.sort-menu-item label {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.cart-button {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: #7BCCB5;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  border: solid black 1px;
+  padding: 9px 19px 9px 19px;
+}
+.button:active {
+  background-color: #519481;
+}
+.button:disabled {
+  cursor: inherit;
+}
+.button:disabled:hover {
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  background-color: #7BCCB5;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.item {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.item input {
+  width: 75%;
+  max-width: 200px;
+  margin-left: 5px;
+}
