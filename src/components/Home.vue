@@ -52,6 +52,7 @@
 </template>
 
 <script>
+// API URL
 const API_URL = 'https://g4cst3145-backend.herokuapp.com'
 
 export default {
