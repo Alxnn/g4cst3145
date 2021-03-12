@@ -52,7 +52,7 @@
 </template>
 
 <script>
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://g4cst3145-backend.herokuapp.com'
 
 export default {
   name: 'Home',
