@@ -1,18 +1,22 @@
 body {
   background-color: rgba(183, 163, 199, 0.534);
 }
+
 .container {
   width: 100vw;
   display: flex;
   flex-direction: row;
 }
+
 .left_column {
   width: 25vw;
   max-width: 400px;
 }
+
 .right_column {
   width: 75vw;
 }
+
 .class-list {
   width: 100%;
   display: flex;
@@ -21,6 +25,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .class-item {
   position: relative;
   width: 25vw;
@@ -33,6 +38,7 @@ body {
   flex-direction: column;
   overflow: hidden;
 }
+
 .class-image {
   max-width: 100px;
   position: absolute;
@@ -40,12 +46,14 @@ body {
   left: -20px;
   border-radius: 100px;
   overflow: hidden;
-  box-shadow: 4px 7px rgba(0,0,0,0.2);
+  box-shadow: 4px 7px rgba(0, 0, 0, 0.2);
   opacity: 0.2;
 }
+
 .class-info {
   padding-bottom: 5px;
 }
+
 .checkout-button {
   margin-top: 10px;
   padding: 5px;
@@ -53,16 +61,20 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .checkout-button:hover {
   border: solid black 1px;
   padding: 4px;
 }
+
 .checkout-button:active {
   background-color: #519481;
 }
+
 .checkout-button:disabled {
   cursor: inherit;
 }
+
 .checkout-button:disabled:hover {
   border: none;
   padding: 5px;
@@ -107,12 +119,15 @@ body {
   border: solid black 1px;
   padding: 9px 19px 9px 19px;
 }
+
 .button:active {
   background-color: #519481;
 }
+
 .button:disabled {
   cursor: inherit;
 }
+
 .button:disabled:hover {
   border: none;
   padding: 10px 20px 10px 20px;
