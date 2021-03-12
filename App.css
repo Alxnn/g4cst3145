@@ -146,8 +146,6 @@ body {
   color: black;
 }
 
-
-
 .back-button {
   position: absolute;
   top: 20px;
@@ -157,17 +155,6 @@ body {
   cursor: pointer;
   border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .item {
   margin-top: 5px;
