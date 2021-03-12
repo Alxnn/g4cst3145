@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="title"> Classes & Activities </h1>
+    <h1 class="title">Classes & Activities</h1>
     <router-link class="cart-button button" :to="{ name: 'Cart', params: { cart, classes } }" tag="button">Cart</router-link>
     <div class="container">
       <div class="left_column">
